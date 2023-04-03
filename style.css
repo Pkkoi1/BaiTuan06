@@ -5,6 +5,8 @@
     justify-content: space-between;
     align-items: center;
     margin: auto;
+    border: 3px silver solid;
+    padding: 10px;
 }
 
 .timer {
