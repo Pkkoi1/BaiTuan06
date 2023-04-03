@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="btn.js">
+    </script>
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>StopWatch Clock</h1>
+        <div class="timer">
+            <span id="Hour">00</span><span>:</span>
+            <span id="Minute">00</span><span>:</span>
+            <span id="Seconds">00</span><span>:</span>
+            <span id="MilliSec">000</span>
+        </div>
+        <ol class="lapContainer"></ol>
+        <div class="btns">
+            <button id="btnStart">Start</button>
+            <button id="btnStop">Stop</button>
+            <button id="btnReset">Reset</button>
+        </div>
+    </div>
+    <!-- <script>
+        function Dong_ho() {
+            var gio = document.getElementById("Hour");
+            var phut = document.getElementById("Minute");
+            var giay = document.getElementById("Seconds");
+            var Gio_now = new Date().getHours();
+            var phut_now = new Date().getMinutes();
+            var giay_now = new Date().getSeconds();
+            gio.innerHTML = Gio_now;
+            phut.innerHTML = phut_now;
+            giay.innerHTML = giay_now;
+        }
+        var dem_gio = setInterval(Dong_ho, 1000);
+    </script> -->
+</body>
+
+</html>
